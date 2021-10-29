@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.expensemanager.HelpFragment">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+
+
+                <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/article_image_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/sign_up_p1" />
+
+                    <ImageView
+                        android:id="@+id/article_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/sign_up_p2" />
+
+                    <ImageView
+                        android:id="@+id/article_image_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/sign_in" />
+
+                    <ImageView
+                        android:id="@+id/article_image_next1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/dashboard_image" />
+
+                    <ImageView
+                        android:id="@+id/article_image_next2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/adding_expense" />
+
+                    <ImageView
+                        android:id="@+id/article_image_next3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/income_list_p2" />
+
+                    <ImageView
+                        android:id="@+id/article_image_next4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/income_list_p3" />
+
+                    <ImageView
+                        android:id="@+id/article_image_next5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/piechart" />
+                    <ImageView
+                        android:id="@+id/article_image_next6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/piechart2" />
+                    <ImageView
+                        android:id="@+id/article_image_next7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/export_data" />
+                    <ImageView
+                        android:id="@+id/article_image_next8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/support" />
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+    <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="0dip"
+                android:layout_weight="6"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/article_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="FAQ"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textSize="25sp"/>
+
+
+                    <TextView
+                        android:id="@+id/article_title"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/faq_text"
+                        android:layout_marginTop="10dp" />
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+</LinearLayout>
+

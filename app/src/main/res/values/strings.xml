@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="salary">Salary</string>
+    <string name="category">Category</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="faq_text">\n\n
+Q: How to register?\n\n
+A: Click on sign up, enter  your  email and password and click register(Refer to image:1/11 and 2/11).\n\n
+Q: How to login?\n\n
+A: Enter  your  email and password, and click on login(Refer to image:3/11).\n\n
+Q: How to use app?\n\n
+A: Add incomes/expenses periodically to monitor savings and expenditure. Go to dashboard, at the bottom navigation tab click on income or expense tab,  enter the amount, choose category, select date, add note, add contact(optional),  recursive toggle(optional) and save. Or you can simply click on income list/expense list on the navigation drawer and edit previous transactions(Refer to image:4/11 - 7/11).\n\n
+Q: How to view graphical summary of income or expense transaction?\n\n
+A: Go to dashboard, click on navigation drawer, click on pie chart. Select income or expense toggle and click on pie chart to display the view(Refer to image:8/11 and 9/11).\n\n
+Q: How to export data?\n\n
+A: Click on export data on the navigation drawer and select either income export or expense export(Refer to image:10/11).\n\n
+Q: How to contact support?\n\n
+A: Click on support from navigation drawer and fill in your details(Refer to image: 11/11).\n\n
+Q: What can I do if my login is stuck with processing?\n\n
+A: Clear all present Cache running in the background and restart the app.\n\n
+Q: Account  information  cannot be updated?\n\n
+A: Your account may be logged on multiple devices at the same time and this problem will resolve after re-login.\n\n
+
+</string>
+
+</resources>

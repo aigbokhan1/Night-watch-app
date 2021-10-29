@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard"/>
+
+    <item
+        android:id="@+id/income"
+        android:icon="@drawable/ico_income"
+        android:title="Income_list" />
+
+    <item
+        android:id="@+id/expense"
+        android:icon="@drawable/ico_expense"
+        android:title="Expense_list" />
+
+    <item android:id="@+id/Income_Recursive"
+        android:title="Income_Recursive"
+        android:icon="@drawable/recursive"/>
+
+    <item android:id="@+id/Expense_Recursive"
+        android:title="Expense_Recursive"
+        android:icon="@drawable/expense"/>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_about"/>
+
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_help"/>
+
+    <item android:id="@+id/support"
+        android:title="support"
+        android:icon="@drawable/ic_email_black_24dp"/>
+
+    <item android:id="@+id/chart"
+        android:title="Pie chart"
+        android:icon="@drawable/ic_equalizer_black_24dp"/>
+    <item android:id="@+id/export"
+        android:title="Export"
+        android:icon="@drawable/ic_export"/>
+
+
+
+
+</menu>

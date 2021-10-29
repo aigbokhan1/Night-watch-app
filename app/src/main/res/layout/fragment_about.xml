@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/nav_about"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="248dp"
+        android:text="   ABOUT\n\n\n Night Watch is a complete financial  solution to manage and track your expenses, incomes, bills and spending  budgets.
+Simply add a transaction whenever you spend or earn money and also account balance.\n\n   Version 0.1.1
+"
+        android:textSize="18sp" />
+
+</RelativeLayout>
