@@ -17,14 +17,11 @@ Application consist of the below main parts.
 
 
 
-Signup page is where user needs to register before logging into the app and once using the credential user logs in, the user would be directed to the main home page which would 
+Signup page is where user needs to register before logging into the app and once using the credential user logs in, the user would be directed to the main home page which would
 be displaying the total income and expense which the user has incurred in total until the current point of time.
 
-From the Main Dashboard user can navigate to either Income or Expense fragment where he could enter the income or expense details namely Amount, Category, Mode, Date and any additional Note if any which he wants to save. 
-Along with it the app comes with the functionality of recursive transaction where user would be able to make the most frequent transaction again with just a single click of the button. App also has the capability of filtering the Income and Expense based on 
+From the Main Dashboard user can navigate to either Income or Expense fragment where he could enter the income or expense details namely Amount, Category, Mode, Date and any additional Note if any which he wants to save.
+Along with it the app comes with the functionality of recursive transaction where user would be able to make the most frequent transaction again with just a single click of the button. App also has the capability of filtering the Income and Expense based on
 Category or Mode of payment at daily weekly or monthly level.
 
 User can also filter the income or expense based on any of the category/payment modes/dates
-
-**.apk file** for the first prototype is available at 
-[url](app-debug.apk)
