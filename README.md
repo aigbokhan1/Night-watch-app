@@ -1,6 +1,6 @@
 **Money Manager APP**
 
-Budgeting app application consists of the main parts below:
+Money manager application consists of the main parts below:
 -  Signup page
 - Login page
 - Main dashboard
